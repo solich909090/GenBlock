@@ -1,0 +1,14 @@
+# Ekonomia GenBlock
+start-money: 500
+generator-limit-per-player: 100
+generator-interval-seconds: 30
+# Cena generatora poziomu N = generator-base-price * N
+generator-base-price: 250
+# Ceny sklepiku sa automatycznie tworzone dla wszystkich materialow.
+# Mozesz ustawic reczne ceny, np. DIAMOND: 250
+item-prices:
+  DIAMOND: 250
+  EMERALD: 180
+  NETHERITE_INGOT: 1200
+  GOLD_INGOT: 90
+  IRON_INGOT: 45

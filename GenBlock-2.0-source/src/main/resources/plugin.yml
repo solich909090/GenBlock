@@ -1,0 +1,17 @@
+name: GenBlock
+version: 2.0.0
+main: pl.genblock.GenBlockPlugin
+api-version: '26.2'
+author: GenBlock
+description: 100 poziomow generatorow i sklepik z materialami Minecrafta
+commands:
+  sklepik:
+    description: Otwiera sklep GenBlock
+    usage: /sklepik
+  genblock:
+    description: Zarzadzanie generatorami GenBlock
+    usage: /genblock give <gracz> <poziom 1-100>
+    permission: genblock.admin
+permissions:
+  genblock.admin:
+    default: op
